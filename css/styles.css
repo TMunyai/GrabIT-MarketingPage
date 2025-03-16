@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body & Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+  /* Header */
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    height: 6em;
+  }
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -2em;
+  }
+  
+.logo img {
+    width: 6em;
+    margin-top: -5rem;
+  }
+  
+.a-tag .sign-up {
+    margin-top: -10em; 
+    position: relative;
+    top: -16px; 
+    color: black;
+    padding: 0.6rem 1rem;
+}
+
+.a-tag .login {
+    margin-top: -10em; 
+    position: relative;
+    top: -16px; 
+    color: black ;
+    padding: 0.6rem 1rem;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+  
+.a-tag a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+.nav-links {
+    display: flex; 
+    justify-content: center;
+    gap: 1rem; 
+}
+
+.nav-links a {
+    margin-top: -2em; 
+    position: relative;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links a:hover {
+    color:  #7f8b96;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+  /* Main Section */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+  
+h1{
+    font-family: 'Human-Sans', sans-serif;
+    margin-top: 1.8rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    color: black;
+}
+  
+p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    font-size: 1rem; 
+    color: #263238; 
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+  
+.get-started-button {
+    margin-top:2em; 
+    position: relative;
+    top: -16px; 
+    color: #333;
+    padding: 0.6rem 1rem;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-bottom: 7rem;
+
+}
+  
+.get-started-button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.rating{
+    margin-top: 1em; 
+    position: relative;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* how it works */
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+  /* How It Works BIG container*/
+.how-it-works {
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+    background-color: white;
+}
+  
+.how-it-works-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+  
+/* small boxes */
+.how-it-works-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transform: scale(0.9); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+    border: 2px solid #333;
+
+
+}
+
+.how-it-works-item:hover {
+    transform: scale(1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+  
+.how-it-works-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 1em;
+}
+  
+.how-it-works-item p {
+    font-size: 1em;
+    color: black;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+/* main LARGE box */
+.why-task-grab {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transform: scale(1);   
+}
+
+
+/* Feature Styling */
+article.feature {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #fff;
+ }
+
+article.feature p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Point System Styling */
+section.point-system {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+article.point {
+    padding: 1.5rem;
+    border: 2px solid #000;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+article.point h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+article.point p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Color Coding */
+article.point.green {
+    border-color: #2ecc71; 
+    
+}
+
+article.point.yellow {
+    border-color: #f1c40f; 
+}
+
+article.point.red {
+    border-color: #e74c3c; 
+}
+
+article.point:hover {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transform: scale(0.9); 
+
+}
+
+/* Task Tracking Styles */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+}
+
+ul li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+}
+
+ul li strong {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Hover effects for each feature */
+article.feature:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+}
+
+/* Link Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+/* Point System Styling */
+.point-system {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+article.point {
+    flex: 1;
+    padding: 1.5rem;
+    border: 2px solid #000;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article.point h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+article.point p {
+    font-size: 1.1rem;
+}
+
+/* Color Coding - black and white interpretation */
+article.point.green {
+    border-color: #2ecc71;
+}
+
+article.point.yellow {
+    border-color: #f1c40f;
+}
+
+article.point.red {
+    border-color: #e74c3c;
+}
+
+/* Hover effect for features */
+article.feature:hover {
+    background-color: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* For the list of tasks, add some cool design */
+ul li strong {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Optional: Add a background color or pattern for extra creativity */
+body {
+    background: linear-gradient(45deg, #ffffff, #f4f4f4);
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* Supercharge Section Styling */
+.supercharge {
+    padding: 4rem 2rem; 
+    text-align: center; 
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); 
+    margin: 4rem auto; 
+    max-width: 1200px;
+}
+.supercharge h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.supercharge p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CTA Button Styling */
+.cta-button {
+    background-color: #fff; 
+    color: #007bff;
+    padding: 1rem 2rem; 
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    text-transform: uppercase; 
+}
+
+.cta-button:hover {
+    background-color: #007bff; 
+    color: #fff; 
+    transform: translateY(-3px); 
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 5rem; 
+    background-color: #333; 
+}
+
+footer p {
+    height: 1em;
+    color: white;
+    font-size: 1rem; 
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .how-it-works-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .how-it-works-item {
+      margin-bottom: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .cta-button {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
+  
+    .pricing h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .how-it-works-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .logo img {
+      width: 100px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .cta-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  
+    .feature h3 {
+      font-size: 1.2rem;
+    }
+  }
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
