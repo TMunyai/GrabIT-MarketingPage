@@ -8,30 +8,30 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #f5f5f5;
+    background: linear-gradient(to right, #6a85f1, #feb47b);
     color: #333;
   }
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
-  /* Header */
+/* Header */
 header {
     background-color: #ffffff;
     padding: 20px 0;
     height: 6em;
-  }
+}
   
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: -2em;
-  }
+}
   
 .logo img {
     width: 6em;
     margin-top: -5rem;
-  }
+}
   
 .a-tag .sign-up {
     margin-top: -10em; 
@@ -39,6 +39,7 @@ nav {
     top: -16px; 
     color: black;
     padding: 0.6rem 1rem;
+    text-decoration: none;
 }
 
 .a-tag .login {
@@ -49,17 +50,19 @@ nav {
     padding: 0.6rem 1rem;
     border: 2px solid #333;
     border-radius: 5px;
+    text-decoration: none;
 }
   
 .a-tag a:hover {
     background-color: #333;
     color: #fff;
-  }
+}
 
 .nav-links {
     display: flex; 
     justify-content: center;
     gap: 1rem; 
+    text-decoration: none;
 }
 
 .nav-links a {
@@ -68,11 +71,22 @@ nav {
     color: black;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    text-decoration: none;
 }
 
 .nav-links a:hover {
     color:  #7f8b96;
+    text-decoration: none;
 }
+
+/* Media Query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .a-tag .sign-up,
+    .nav-links {
+        display: none;
+    }
+}
+
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
@@ -81,6 +95,8 @@ section {
     padding: 40px 20px;
     text-align: center;
 }
+
+
   
 h1{
     font-family: 'Human-Sans', sans-serif;
@@ -128,6 +144,7 @@ p {
     padding: 0.5rem 1rem;
 
 }
+
 
 
 /* ---------------------------------------------------------------------------------------------------------- */
@@ -186,6 +203,7 @@ h2 {
     color: black;
 }
 
+
 /* ---------------------------------------------------------------------------------------------------------- */
 h2 {
     text-align: center;
@@ -229,6 +247,7 @@ section.point-system {
     justify-content: space-between;
     gap: 2rem;
     margin-bottom: 1.5rem;
+    overflow-x: auto ;
 }
 
 article.point {
@@ -489,3 +508,5 @@ footer p {
 html {
     scroll-behavior: smooth;
 }
+
+
