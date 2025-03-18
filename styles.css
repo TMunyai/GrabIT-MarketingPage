@@ -205,6 +205,8 @@ h2 {
 
 
 /* ---------------------------------------------------------------------------------------------------------- */
+/* What Sets Task Grab Apart? */
+
 h2 {
     text-align: center;
     font-size: 2.5rem;
@@ -215,7 +217,7 @@ h2 {
 
 /* main LARGE box */
 .why-task-grab {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
     padding: 2rem;
     background-color: white;
@@ -253,7 +255,7 @@ section.point-system {
 article.point {
     padding: 1.5rem;
     border: 2px solid #000;
-    border-radius: 8px;
+    border-radius: 1rem;
     text-align: center;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -329,7 +331,6 @@ a:hover {
 /* ---------------------------------------------------------------------------------------------------------- */
 
 
-/* Point System Styling */
 .point-system {
     display: flex;
     justify-content: space-between;
